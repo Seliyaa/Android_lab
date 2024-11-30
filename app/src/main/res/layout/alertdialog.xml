@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#3BBD9F3C"
+    android:layout_margin="20dp"
+
+    android:orientation="horizontal"
+    android:stretchColumns="0"
+    tools:context="com.example.Alert.AlertdialogActivity">
+
+    <TableRow android:layout_width="212dp">
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="登录"
+            android:textSize="45dp"
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_span="2"
+            android:backgroundTint="#3F3F3F"
+            android:ems="10"
+            android:hint="请输入账户"
+            android:inputType="text"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_span="2"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:selectAllOnFocus="true"
+            android:inputType="numberPassword" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+        >
+
+        <android.widget.Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/buttonclick1"
+            android:gravity="start"
+            android:padding="9dp"
+            android:text="@string/check"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+
+        <android.widget.Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/buttonclick2"
+            android:gravity="start"
+            android:padding="9dp"
+
+            android:text="@string/cancel"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>

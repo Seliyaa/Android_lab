@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="402dp"
+        android:layout_height="88dp"
+        android:background="@drawable/border"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="63dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/double_arrows" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Space Stations"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Flovers"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="65dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Flights"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+
+        app:srcCompat="@drawable/rocket_icon"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="79dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505"
+        app:srcCompat="@drawable/galaxy" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/rover_icon"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+
+        app:srcCompat="@drawable/space_station_icon"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="13dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/rocket_icon" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_marginBottom="16dp"
+        android:background="#2B653A"
+        android:gravity="center"
+        android:text="DEPART"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="103dp"
+        android:layout_height="82dp"
+        android:background="#2B653A"
+        android:gravity="center"
+        android:text="DCA"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="103dp"
+        android:layout_height="82dp"
+        android:background="#2B653A"
+        android:gravity="center"
+        android:text="MARS"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B86324"
+        android:padding="3dp"
+        android:text="1 Traveller"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:background="#B86324"
+        android:padding="5dp"
+        android:text="One Way"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

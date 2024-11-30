@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menu.MenuActivity"
+
+    >
+
+    <item
+        android:id="@+id/menu_line1"
+        android:title="@string/line1">
+        <menu  >
+            <item  android:id="@+id/small"
+                android:title="@string/small" />
+            <item android:id="@+id/middle"
+                android:title="@string/middle" />
+            <item android:id="@+id/large"
+                android:title="@string/large" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/line2"
+          android:id="@+id/menu_line2">
+
+    </item>
+
+    <item android:title="@string/line3"
+        android:background="@color/black"
+        android:id="@+id/menu_line3" >
+        <menu >
+            <item android:id="@+id/red"
+                android:title="@string/red" />
+            <item android:id="@+id/black"
+                android:title="@string/black" />
+        </menu>
+    </item>
+
+</menu>

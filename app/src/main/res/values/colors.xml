@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F44336</color>
+
+
+    <drawable name="unpressed">#D96B6B</drawable>
+    <drawable name="pressed">#BDA1A1</drawable>
+    <drawable name="unpressed1">#A6DB45</drawable>
+    <drawable name="pressed1">#BDA1A1</drawable>
+    <drawable name="unpressed2">#4EABF6</drawable>
+    <drawable name="pressed2">#BDA1A1</drawable>
+
+</resources>

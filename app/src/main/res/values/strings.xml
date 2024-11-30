@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">linearlayout</string>
+    <string name="check">确认</string>
+    <string name="cancel">取消</string>
+    <string name="test">用于测试用的文字</string>
+    <string name="line1">字体大小</string>
+    <string name="line2">普通菜单项</string>
+    <string name="line3">字体颜色</string>
+    <string name="title1">MenuTest</string>
+    <string name="small">10号字体</string>
+    <string name="middle">16号字体</string>
+    <string name="large">20号字体</string>
+    <string name="red">红色</string>
+    <string name="black">黑色</string>
+</resources>
